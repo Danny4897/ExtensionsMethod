@@ -1,4 +1,3 @@
-using ExtensionMethods;
 using ExtensionMethods.OptionSample;
 using ExtensionMethods.OptionSample.Processes;
 using static ExtensionMethods.OptionSample.Processes.AddAuthorDefaults;
@@ -10,16 +9,12 @@ using static ExtensionMethods.OptionSample.Processes.FormatNameListDefaults;
 NameType[] authors = Name.CreateMany(
     Name.Create("Franco", "Pigna")
     , Name.Create("Carlo", "Alberto"));
-
-
 if (authors is null) return;
 
 var title = Title.Create("Viaggio in Oriente II");
-
 if (title is null) return;
 
 var book = Book.Create(title, authors);
-
 if (book is null) return;
 
 var alternativeTitle = Title.Create(book.title.ToString().ToUpper());

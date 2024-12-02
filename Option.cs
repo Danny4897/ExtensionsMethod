@@ -2,8 +2,8 @@
 
 public class Option<T>
 {
-    private readonly T _content;
-    private readonly bool _hasValue;
+    public readonly T _content;
+    public readonly bool _hasValue;
     
     private Option(T content, bool hasValue) =>
     (_content, _hasValue) = (content, hasValue);
