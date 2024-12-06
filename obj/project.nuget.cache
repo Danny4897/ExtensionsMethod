@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "1eWnOF/x7MM=",
-  "success": true,
+  "dgSpecHash": "TnvCQFOIuH4=",
+  "success": false,
   "projectFilePath": "C:\\Users\\adani\\RiderProjects\\ExtensionMethods\\ExtensionMethods\\ExtensionMethods.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\adani\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\adani\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\adani\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\adani\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\adani\\RiderProjects\\ExtensionMethods\\FunctionalExtensions\\FunctionalExtensions.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\adani\\RiderProjects\\ExtensionMethods\\FunctionalExtensions\\FunctionalExtensions.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

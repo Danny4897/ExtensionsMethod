@@ -1,11 +1,13 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net6.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net6.0": [
+      "C:\\Users\\adani\\RiderProjects\\ExtensionMethods\\FunctionalExtensions\\FunctionalExtensions.csproj"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\adani\\.nuget\\packages\\": {}
@@ -24,15 +26,19 @@
         "C:\\Users\\adani\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net6.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "projectReferences": {}
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\adani\\RiderProjects\\ExtensionMethods\\FunctionalExtensions\\FunctionalExtensions.csproj": {
+              "projectPath": "C:\\Users\\adani\\RiderProjects\\ExtensionMethods\\FunctionalExtensions\\FunctionalExtensions.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -47,8 +53,8 @@
       }
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
@@ -60,6 +66,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -68,8 +92,19 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\adani\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\adani\\.dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\adani\\RiderProjects\\ExtensionMethods\\FunctionalExtensions\\FunctionalExtensions.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\adani\\RiderProjects\\ExtensionMethods\\FunctionalExtensions\\FunctionalExtensions.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
